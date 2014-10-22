@@ -11,13 +11,13 @@
 			var shopbeam:Shopbeam = new Shopbeam("e8abf83f-38f2-450b-80e5-32d206ce85e6", this);
 
 			// first argument is a MovieClip name, the second argument is a product ID
-			shopbeam.onClickGoToProduct("heel", "9184046"); //"9184143");
+			shopbeam.onClickGoToProduct("heel", "9184456");
 
 			// optional additional call to wire up another MovieClip
-			shopbeam.onClickGoToProduct("dress", "9182186"); //"9184143");
+			shopbeam.onClickGoToProduct("dress", "9184468");
 			  
 			// optional additional call to wire up another MovieClip
-			shopbeam.onClickGoToProduct("bag", "9184770"); //"9184143");
+			shopbeam.onClickGoToProduct("bag", "9184770");
 		
 			setupAnimation(this.shopbeam_bag, 0);
 			setupAnimation(this.heel, 1);
