@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>Shopbeam Test Ad</title>
+    </head>
+    <body>
+
+        <!-- this iframe loads https://www.shopbeam.com/js/friendly.iframe.loader.js into it -->
+        <iframe width="1" scrolling="no" height="1" frameborder="0" src="fif.html" seamless="seamless"></iframe>
+        
+        <!-- then on the page, your flite tag -->
+
+        <script>
+                (function () {
+                    var guid = "cc7ba643-2347-4c61-8ce8-b73cebebcc39", o = window, r = "", m, s = "http:", e = encodeURIComponent, x = 0, f = document.createElement("script");
+                    o.FLITE = o.FLITE || {};
+                    o.FLITE.config = o.FLITE.config || {};
+                    o.FLITE.config[guid] = o.FLITE.config[guid] || {};
+                    o.FLITE.config[guid].cb = Math.random();
+                    o.FLITE.config[guid].ts = (+new Date());
+                    try { r = (top === self && top.location) ? top.location.href : document.referrer || (top.location && top.location.href) || ""; } catch (er) { x = 1 }
+                    try { s = o.location && o.location.protocol === "https:" ? o.location.protocol : s; } catch (er) { x += 2 }
+                    try { m = r.match(new RegExp("[A-Za-z]+:[/][/][A-Za-z0-9.-]+")); } catch (er) { x += 4 }
+                    f.src = [s, "//r.flite.com/syndication/uscript.js?i=", e(guid), "&v=3", "&x=us", x, "&cb=", o.FLITE.config[guid].cb, "&d=", e((m && m[0]) || r)].join("");
+                    document.write(f.outerHTML);
+                })();
+            </script>
+        <noscript>
+            <a style="text-decoration:none;display:block;border:0;" href="//r.flite.com/syndication/backuplink/i/cc7ba643-2347-4c61-8ce8-b73cebebcc39?ct=" target="_blank">
+                <img border="0" src="//r.flite.com/syndication/backupimage/i/cc7ba643-2347-4c61-8ce8-b73cebebcc39?at=" />
+            </a>
+        </noscript>
+        
+        
+        <!-- that's it! -->
+    </body>
+</html>
