@@ -9,7 +9,7 @@
 		
 		public function Shoptiques_leaderboard() { 
 
-			var shopbeam:Shopbeam = new Shopbeam("d1a70cb5-db3d-49d5-bb1c-e78c65ccc258", this);
+			var shopbeam:Shopbeam = new Shopbeam("cec31e4c-cf11-49f6-8b1c-3fb3618ea2f4", this);
 
 			// first argument is a MovieClip name, the second argument is a product ID
 			shopbeam.onClickGoToProduct("heel", "9184456");
